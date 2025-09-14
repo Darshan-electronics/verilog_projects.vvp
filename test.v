@@ -27,5 +27,3 @@ module basic_gates;
         #10 $display("%0t\t%b\t%b\t%b\t%b\t%b\t%b", $time, a, b, and_out, or_out, not_out, xor_out);
         
         $finish;
-    end
-endmodule
