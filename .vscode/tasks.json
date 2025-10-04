@@ -1,0 +1,23 @@
+
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run Verilog Simulation",
+            "type": "shell",
+            "command": "iverilog -o sim_exec/test_exec test.v && vvp sim_exec/test_exec",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": []
+        }
+    ]
+}
+
+
+
+
+
+
+
